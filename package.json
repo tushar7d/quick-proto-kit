@@ -56,5 +56,10 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "styled-components": "^3.4.2",
+    "styled-map": "^3.0.0",
+    "styled-system": "^3.0.2"
+  }
 }
