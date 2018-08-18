@@ -17,7 +17,7 @@ npm install --save quick-proto-kit styled-components styled-map styled-system
 ```jsx
 import React, { Component } from 'react'
 
-import {View} from 'quick-proto-kit'
+import {View, Text} from 'quick-proto-kit'
 
 class Example extends Component {
   render () {
