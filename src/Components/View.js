@@ -103,7 +103,11 @@ const br = styledMap`
 
 const View = styled.div`
 
- ${space} ${width} ${color} ${height} ${borderRadius};
+ ${space}
+ ${width}
+ ${color}
+ ${height}
+ ${borderRadius};
 
  display: ${dp};
  flex-direction: ${props=>(checkFlex(props) ? fd : '')};
