@@ -1,4 +1,4 @@
-# kit
+# Quick Prototyping kit
 
 > 
 
@@ -7,7 +7,9 @@
 ## Install
 
 ```bash
-npm install --save kit
+npm install --save quick-proto-kit styled-components styled-map styled-system
+
+
 ```
 
 ## Usage
@@ -15,12 +17,16 @@ npm install --save kit
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'kit'
+import {View} from 'quick-proto-kit'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <View horizontal center mid bg={'#f5f5f5'} height={'200px'} >
+          Hellow I am a View.
+
+      </View>
+
     )
   }
 }
