@@ -1,5 +1,5 @@
 {
-  "name": "kit",
+  "name": "designkitred",
   "version": "1.0.0",
   "description": "",
   "author": "tushar7d",
@@ -24,7 +24,10 @@
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0"
+    "react-dom": "^15.0.0 || ^16.0.0",
+    "styled-components": "^3.4.2",
+    "styled-map": "^3.0.0",
+    "styled-system": "^3.0.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -58,8 +61,6 @@
     "dist"
   ],
   "dependencies": {
-    "styled-components": "^3.4.2",
-    "styled-map": "^3.0.0",
-    "styled-system": "^3.0.2"
+    
   }
 }
