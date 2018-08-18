@@ -58,7 +58,7 @@ const jci = styledMap`
 `;
 
 function juscon(props){
-  console.log(props);
+
   
   if (props.horizontal == true && props.vertical == null ){
     return jc;
@@ -73,7 +73,7 @@ function juscon(props){
 }
 
 function aliitm(props){
-  console.log(props);
+  
   
   if ((props.horizontal == true) && (props.vertical == null) ){
     return ai;
@@ -85,6 +85,20 @@ function aliitm(props){
   
 }
 
+function checkFlex(props){
+
+  return props.horizontal || props.vertical
+  
+}
+
+
+const br = styledMap`
+  curved: 6px;
+  default: ;
+
+
+`;
+
 
 
 const View = styled.div`
@@ -92,9 +106,12 @@ const View = styled.div`
  ${space} ${width} ${color} ${height} ${borderRadius};
 
  display: ${dp};
- flex-direction: ${props=>(props.horizontal || props.vertical ? fd : '')};
+ flex-direction: ${props=>(checkFlex(props) ? fd : '')};
+ flex-wrap:${props=>(props.wrap && checkFlex(props) ? 'wrap' : 'nowrap')}
  justify-content: ${props=>juscon(props)};
  align-items:  ${props=>aliitm(props)};
+
+ border-radius: ${props=> props.borderRadius == null ? br:'' };
  
  
 
