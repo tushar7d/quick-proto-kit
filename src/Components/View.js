@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { space, width, color, height, borderRadius} from 'styled-system';
+import { space, width, color, height,minHeight, borderRadius} from 'styled-system';
 import styledMap from 'styled-map';
 
 
@@ -17,7 +17,7 @@ const ai = styledMap`
   top: flex-start;
   bottom: flex-end;
   mid: center;
-  strech: strech;
+  stretch: stretch;
   default: flex-start;
 
 
@@ -27,7 +27,7 @@ const aii = styledMap`
   left: flex-start;
   right: flex-end;
   center: center;
-  strech: strech;
+  stretch: stretch;
   default: flex-start;
 
 
@@ -107,6 +107,7 @@ const View = styled.div`
  ${width}
  ${color}
  ${height}
+ ${minHeight}
  ${borderRadius};
 
  display: ${dp};

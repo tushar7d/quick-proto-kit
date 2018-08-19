@@ -1,23 +1,59 @@
 import React, { Component } from 'react';
+import { ThemeProvider } from 'styled-components'
+import { View, Card, theme, Image } from 'kit';
+import carImage from './Assets/CarImage.jpg';
+import suppImage from './Assets/SuppImage.png';
 
-import { View, Text } from 'kit';
+
+//import Card from 'kit/example/src/Components/Card';
+import ViewMobile from './Views/ViewMobile';
 
 export default class App extends Component {
   render() {
     return (
-      <View horizontal split strech bg={'#f5f5f5'}>
+      <ThemeProvider theme={theme}>
+        <View horizontal center bg={'grey100'} width={'100%'} height={'100vh'} >
+          
+          <ViewMobile>
 
-        <View width={'40%'}>
-          <Text p={12} textAlign={'center'}  fontSize={'2em'}>Quick Proto Kit</Text>
+            <Card horizontal stretch curved >
+
+              <View vertical center top width={'30%'}>
+
+                <Image src={carImage} />
+                <Image src={suppImage} width={'50%'}/>
+
+              </View>
+
+               <View vertical mid width={'65%'} >
+
+                 <View width={'40%'} height={'15px'} curved bg={'grey200'} mb={2} />
+
+                 <View width={'80%'} height={'10px'} curved bg={'grey200'} mb={1} />
+                 <View width={'80%'} height={'10px'} curved bg={'grey200'} mb={1} />
+                 <View width={'80%'} height={'10px'} curved bg={'grey200'} mb={1} />
+                 <View width={'80%'} height={'10px'} curved bg={'grey200'} mb={1} />
+                 <View width={'80%'} height={'10px'} curved bg={'grey200'} mb={1} />
+                 <View width={'80%'} height={'10px'} curved bg={'grey200'} mb={1} />
+                 <View width={'80%'} height={'10px'} curved bg={'grey200'} mb={1} />
+                 <View width={'80%'} height={'10px'} curved bg={'grey200'} mb={1} />
+                 
+
+                  
+                
+              
+
+              </View>
+
+            </Card>
+
+
+
+
+          </ViewMobile>
+
         </View>
-        
-        <View width={'60%'} bg={'#efeff4'} horizontal center mid>
-          <View>
-          <Text width={'300px'} textAlign={'center'} fontSize={'1.2em'} fontWeight={600}>V 0.0.3</Text>
-          <Text width={'300px'} textAlign={'center'} fontSize={'1em'}>more to come</Text>
-          </View>
-        </View>
-    </View>
-    )
+      </ThemeProvider>
+    );
   }
 }
