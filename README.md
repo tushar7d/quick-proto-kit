@@ -17,15 +17,16 @@ npm install --save quick-proto-kit styled-components styled-map styled-system
 ```jsx
 import React, { Component } from 'react'
 
-import {View, Text} from 'quick-proto-kit'
+import {View, Text, Image, Stack} from 'quick-proto-kit'
 
 class Example extends Component {
   render () {
     return (
-      <View horizontal center mid bg={'#f5f5f5'} height={'200px'} >
-          Hellow I am a View.
+      <Stack horizontal mid bg={'#ffffff'} height={'200px'} >
+          <View width={'100px'} height={'100px'} bg={'#f5f5f5'} />
+          <View width={'100px'} height={'100px'} bg={'#efeff4'} />
 
-      </View>
+      </Stack>
 
     )
   }
