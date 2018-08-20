@@ -1,13 +1,7 @@
-import styled from 'styled-components';
-import { space, width, color, height,minHeight, borderRadius} from 'styled-system';
+
 import styledMap from 'styled-map';
+import View from './View';
 
-
-const dp = styledMap`
-  horizontal: flex;
-  vertical: flex;
-  default: block;
-`;
 const fd = styledMap`
   horizontal: row;
   vertical: column;
@@ -57,6 +51,10 @@ const jci = styledMap`
 
 `;
 
+
+
+
+
 function juscon(props){
 
   
@@ -85,47 +83,19 @@ function aliitm(props){
   
 }
 
-function checkFlex(props){
-
-  return props.horizontal || props.vertical
-  
-}
-
-
-const br = styledMap`
-  curved: 6px;
-  default: ;
-
-
-`;
 
 
 
-const View = styled.div`
 
- ${space}
- ${width}
- ${color}
- ${height}
- ${minHeight}
- ${borderRadius};
+const Stack = View.extend`
 
- display: ${dp};
- flex-direction: ${props=>(checkFlex(props) ? fd : '')};
- flex-wrap:${props=>(props.wrap && checkFlex(props) ? 'wrap' : 'nowrap')}
- justify-content: ${props=>juscon(props)};
- align-items:  ${props=>aliitm(props)};
-
- border-radius: ${props=> props.borderRadius == null ? br:'' };
- 
- 
+display: flex;
+flex-direction: ${fd};
+flex-wrap:${props=>(props.wrap ? 'wrap' : 'nowrap')};
+justify-content: ${props=>juscon(props)};
+align-items:  ${props=>aliitm(props)};
 
 `;
+Stack.displayName = 'Stack';
 
-
-
-View.displayName = 'View';
-
-
-export default View;
-
+export default Stack;

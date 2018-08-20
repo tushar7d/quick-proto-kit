@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { View, theme } from 'kit';
+import { Stack, theme, Card } from 'kit';
 
 export default class ViewMobile extends Component {
     render() {
       return (
-        <View  vertical bg={theme.colors.grey300}  width={'375px'}  >
+        <Stack vertical stretch bg={theme.colors.grey300} width={'375px'} height={'100vh'} m={'auto'}  p={3} >
             
             {this.props.children}
   
@@ -13,7 +13,7 @@ export default class ViewMobile extends Component {
   
   
          
-      </View>
+      </Stack>
       )
     }
   }
