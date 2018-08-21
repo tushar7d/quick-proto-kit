@@ -13,13 +13,13 @@ export default class App extends Component {
     return (
       <ThemeProvider theme={theme}>
         <ViewMobile>
-          <Card horizontal left p={3} curved mb={3} >
-            <Stack vertical center wrap width={'30%'}   >
-              <Image src={carImage} mb={3} />
+          <Card horizontal left p={3} more-curved mb={3} >
+            <Stack  vertical center wrap width={'30%'}   >
+              <Image  src={carImage} mb={3} />
               <Image src={suppImage} width={'50%'} />
             </Stack>
             <Stack vertical left  ml={3} wrap width={'70%'} >
-              <Text fontSize={'21px'} >hello</Text>
+              <Text >hello</Text>
             </Stack>
 
 

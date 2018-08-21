@@ -4,6 +4,8 @@ import styledMap from 'styled-map';
 
 const br = styledMap`
   curved: 6px;
+  more-curved: 12px;
+  round: 100%;
   default: ;
 `;
 
