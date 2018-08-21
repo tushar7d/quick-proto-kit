@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { ThemeProvider } from 'styled-components'
-import { View,Text, Card, theme, Image, Stack } from 'kit';
+import { Text, Card, theme, Image, Stack } from 'kit';
 import carImage from './Assets/CarImage.jpg';
 import suppImage from './Assets/SuppImage.png';
 

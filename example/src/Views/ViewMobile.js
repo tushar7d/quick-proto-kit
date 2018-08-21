@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Stack, theme, Card } from 'kit';
+import { Stack, theme, } from 'kit';
 
 export default class ViewMobile extends Component {
     render() {
