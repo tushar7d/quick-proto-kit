@@ -4,7 +4,7 @@
   "description": "Simple prototyping",
   "author": "tushar7d",
   "license": "MIT",
-  "repository": "tushar7d/kit",
+  "repository": "tushar7d/quick-proto-kit",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
