@@ -1,4 +1,5 @@
 
+import styled from 'styled-components';
 import styledMap from 'styled-map';
 import View from './View';
 
@@ -87,11 +88,11 @@ function aliitm(props){
 
 
 
-const Stack = View.extend`
+const Stack = styled(View)`
 
 display: flex;
 flex-direction: ${fd};
-flex-wrap:${props=>(props.wrap ? 'wrap' : 'nowrap')};
+flex-wrap:${props=>(props.wraped ? 'wrap' : 'nowrap')};
 justify-content: ${props=>juscon(props)};
 align-items:  ${props=>aliitm(props)};
 
