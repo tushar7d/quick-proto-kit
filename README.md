@@ -4,6 +4,10 @@
 
 [![NPM](https://img.shields.io/npm/v/kit.svg)](https://www.npmjs.com/package/kit) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## Documentation
+
+https://quick-proto-kit.gitbook.io/go
+
 ## Install
 
 Quick proto Kit is based on styled-compoenents, styled-system and styled-map. To use it you must install all of these.
