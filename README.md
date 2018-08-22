@@ -13,10 +13,7 @@ Quick proto Kit is based on styled-compoenents, styled-system and styled-map. To
 npm install --save styled-components styled-map styled-system
 
 npm install --save quick-proto-kit
-
-
 ```
-
 ## Usage
 
 ```jsx
