@@ -5,7 +5,7 @@
 [![NPM](https://img.shields.io/npm/v/kit.svg)](https://www.npmjs.com/package/kit) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Demo
-You can try out the library at codesandbox!
+
 [![ Quick-Proto-Kit](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/r0vr59wjvm?module=%2Fsrc%2FApp.js)
 
 ## Documentation
