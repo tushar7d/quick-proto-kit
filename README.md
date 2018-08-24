@@ -56,22 +56,22 @@ class Example extends Component {
 
 Property  | syntax
 ------------ | -------------
-Height | ```jsx  <View height={'value'} />```
-Width | ```jsx  <View width={'value'} />```
-Background color | ```jsx  <View bg={'value  | theme'} />```
-Text color | ```jsx  <View width={'value | theme'} />```
-Corner Curve | ```jsx <View borderRadius={'value | theme'} />```
-Shadow |```jsx <View boxShadow={'value | theme'} />``` 
+Height | ```  <View height={'value'} /> ```
+Width | ```  <View width={'value'} /> ```
+Background color | ```  <View bg={'value or theme'} /> ```
+Text color | ```  <View width={'value or theme'} /> ```
+Corner Curve | ``` <View borderRadius={'value or theme'} /> ```
+Shadow | ``` <View boxShadow={'value or theme'} /> ``` 
 
 
 ### Border Radius
 
 command  |  purpose    |syntax 
 ------------ | ------------- | -------------
-curved |Add a border radius of 6px |```jsx  <View curved  />```
-more-curved |Add a border radius of 12px |```jsx  <View more-curved  />```
-round |Add a border radius of 100%, this will make a circle if the view is squre |```jsx  <View curved  />```
-default | No border | 
+curved | Add a border radius of 6px | ```  <View curved  /> ```
+more-curved | Add a border radius of 12px | ```  <View more-curved  /> ```
+round | Add a border radius of 100%, this will make a circle if the view is squre | ```  <View curved  /> ```
+default | No border | -
 
 ## Text
 
