@@ -43,7 +43,7 @@ const CarSpec = (props) =>
 
   </Stack>
 
-  <Stack horizontal mb={1} >
+  <Stack horizontal wraped mb={1} >
     <Image src={tick} width={'16px'} mt={'2px'} mr={2} />
     <Text s color={'grey600'} mr={2} >Automatic </Text>
 
@@ -90,11 +90,11 @@ export default class App extends Component {
     return (
       <ThemeProvider theme={theme}>
 
-          <ViewMobile>
+          
 
-                <Card vertical curved mb={3} boxShadow={0}>
+                <Card vertical curved mb={3} boxShadow={0} m={3}>
 
-                      <Stack horizontal p={3}>
+                      <Stack horizontal split left p={3}>
 
                             
 
@@ -127,7 +127,7 @@ export default class App extends Component {
 
                 </Card>
 
-          </ViewMobile>
+         
         
       </ThemeProvider>
             );
