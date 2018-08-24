@@ -4,8 +4,16 @@
     space: [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72],
     fontSizes: [11, 12, 13, 15, 17, 20, 23, 27, 34, 45],
     fontWeights: [300, 'normal', 500, 'bold'],
-    colors: {
+    shadows:[
+        '0px 0px 2px 0px rgba(0,0,0,0.1)',
+        '0px 1px 4px 0px rgba(0,0,0,0.1)',
+        '0px 1px 6px 0px rgba(0,0,0,0.1)',
+        '0px 1px 8px 0px rgba(0,0,0,0.1)',
+        '0px 1px 10px 0px rgba(0,0,0,0.1)',
+        '0px 1px 12px 0px rgba(0,0,0,0.1)'
 
+    ],
+    colors: {
         'brandYellow': '#ffcb00',
         'brandblue': '#00355f',
 

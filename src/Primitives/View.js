@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { space, width, color, height, minHeight, borderRadius } from 'styled-system';
+import { space, width, color, height, minHeight, borderRadius, boxShadow } from 'styled-system';
 import styledMap from 'styled-map';
 
 const br = styledMap`
@@ -31,6 +31,7 @@ const View = styled.div`
   ${height}
   ${minHeight}
   ${borderRadius};
+  ${boxShadow};
 
   display: ${disp};
   flex: ${props=> props.child ? fg : null};

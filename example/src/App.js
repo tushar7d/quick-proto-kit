@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ThemeProvider } from 'styled-components'
+import { ThemeProvider } from 'styled-components';
 import { Text, Card, theme, Image, Stack } from 'kit';
 import carImage from './Assets/CarImage.jpg';
 import suppImage from './Assets/SuppImage.png';
@@ -13,14 +13,23 @@ export default class App extends Component {
     return (
       <ThemeProvider theme={theme}>
         <ViewMobile>
-          <Card horizontal left p={3} more-curved mb={3} >
-            <Stack  vertical center wraped width={'30%'}   >
-              <Image  src={carImage} mb={3} />
-              <Image src={suppImage} width={'50%'} />
+          <Card curved mb={3} boxShadow={0}>
+          
+            <Stack horizontal left p={3}>
+
+              <Stack vertical center wraped width={'30%'} >
+                <Image src={carImage} mb={1} />
+                <Image src={suppImage} width={'50%'} />
+              </Stack>
+
+              <Stack vertical left ml={3} wraped width={'70%'} >
+                <Text m bold >Economy</Text>
+                <Text s color={'grey600'}>Vauxhall or simmilar</Text>
+              </Stack>
+
             </Stack>
-            <Stack vertical left  ml={3} wraped width={'70%'} >
-              <Text >hello</Text>
-            </Stack>
+
+
 
 
 
@@ -34,46 +43,3 @@ export default class App extends Component {
   }
 }
 
-/*
- <Stack horizontal center bg={'grey100'} width={'100%'} height={'100vh'} >
-          
-          <ViewMobile>
-
-            <Card horizontal stretch curved  width={'100%'}>
-
-              <Stack vertical center top width={'30%'}>
-
-                <Image src={carImage} />
-                <Image src={suppImage} width={'50%'}/>
-
-              </Stack>
-
-               <Stack vertical mid width={'65%'} >
-
-                 <View width={'40%'} height={'15px'} curved bg={'grey200'} mb={2} />
-
-                 <View width={'80%'} height={'10px'} curved bg={'grey200'} mb={1} />
-                 <View width={'80%'} height={'10px'} curved bg={'grey200'} mb={1} />
-                 <View width={'80%'} height={'10px'} curved bg={'grey200'} mb={1} />
-                 <View width={'80%'} height={'10px'} curved bg={'grey200'} mb={1} />
-                 <View width={'80%'} height={'10px'} curved bg={'grey200'} mb={1} />
-                 <View width={'80%'} height={'10px'} curved bg={'grey200'} mb={1} />
-                 <View width={'80%'} height={'10px'} curved bg={'grey200'} mb={1} />
-                 <View width={'80%'} height={'10px'} curved bg={'grey200'} mb={1} />
-                 
-
-                  
-                
-              
-
-              </Stack>
-
-            </Card>
-
-
-
-
-          </ViewMobile>
-
-        </Stack>
-        */

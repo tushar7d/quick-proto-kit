@@ -33,7 +33,14 @@ const fw = styledMap`
   medium:700;
   regular: normal;
   light: 200;
-  default: normal ;
+  default: normal;
+`;
+
+const fa = styledMap`
+  left: left;
+  right: right;
+  center: center;
+  default: left;
 `;
 
 
@@ -47,11 +54,12 @@ const Text = styled.div`
  ${fontSize}
  ${textAlign}
  ${fontWeight}
- ${lineHeight};
+ ${lineHeight}
 
  font-size: ${fs};
  line-height: ${lh};
  font-weight: ${fw};
+ text-align: ${fa};
 
 
 
