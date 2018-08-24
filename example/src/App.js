@@ -23,11 +23,10 @@ export default class App extends Component {
               </Stack>
 
               <Stack vertical left ml={3} wraped width={'70%'} >
-                <div>
-                <Image src={carImage} mb={1} width={'20px'} inline />
+                
               
-                <Text inline m bold > Economy </Text>
-                </div>
+                <Text m bold > Economy </Text>
+                
                 <Text s color={'grey600'}>Vauxhall or simmilar</Text>
               </Stack>
 
