@@ -54,7 +54,6 @@ class Example extends Component {
 
 
 ### Layout
-
 Property  | Meaning | Syntac
 ------------ | ------------- | -------------
 horizontal | Align all child elements horizontally | ```  <Stack horizontal /> ```
@@ -67,12 +66,20 @@ left | Left Align all child elements  | ```  <Stack left /> ```
 right | Right Align all child elements  | ```  <Stack right /> ```
 
 
+### Alignment
+Property  | Meaning | Syntac
+------------ | ------------- | -------------
+center | center all child element horizontaly | ```  <Stack center /> ```
+mid | center all child element vertically | ```  <Stack mid /> ```
+top | Top Align all child elements  | ```  <Stack top /> ```
+bottom | Bottom Align all child elements  | ```  <Stack bottom /> ```
+left | Left Align all child elements  | ```  <Stack left /> ```
+right | Right Align all child elements  | ```  <Stack right /> ```
+
+
 
 
 ## View
-
-
-
 
 ### Dimensions
 
