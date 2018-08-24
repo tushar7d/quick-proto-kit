@@ -14,11 +14,11 @@ https://quick-proto-kit.gitbook.io/go
 
 ## Install
 
-Quick proto Kit is based on styled-compoenents, styled-system and styled-map. To use it you must install all of these.
+Quick proto Kit is based on styled-compoenents. To use it you must install all of these.
 
 ```bash
 
-npm install --save styled-components styled-map styled-system
+npm install --save styled-components
 
 npm install --save quick-proto-kit
 ```
