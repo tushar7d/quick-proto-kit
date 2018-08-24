@@ -49,6 +49,9 @@ class Example extends Component {
 
 ## Text
 
+
+
+
 ### Font Size
 
 Parameter (case sensitive) | Value
@@ -83,6 +86,13 @@ default | left
 left | left
 right | right
 center | center
+
+### Display
+
+Parameter (case sensitive) | Value
+------------ | -------------
+default | block
+inline | inline
 
 
 
