@@ -19,6 +19,7 @@ const fg = styledMap`
 const disp = styledMap`
 
 child: flex;
+inline: inline-block;
 default: block;
 `;
 

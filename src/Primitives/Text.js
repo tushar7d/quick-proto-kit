@@ -42,6 +42,12 @@ const fa = styledMap`
   center: center;
   default: left;
 `;
+const disp = styledMap`
+child: flex;
+inline: inline-block;
+default: block;
+
+`;
 
 
 
@@ -55,7 +61,8 @@ const Text = styled.div`
  ${textAlign}
  ${fontWeight}
  ${lineHeight}
-
+ 
+ display: ${disp}; 
  font-size: ${fs};
  line-height: ${lh};
  font-weight: ${fw};

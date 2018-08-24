@@ -1,6 +1,7 @@
 import styled from 'styled-components';
-import { space, width, height, borderRadius } from 'styled-system';
+
 import styledMap from 'styled-map';
+import View from './View';
 
 const br = styledMap`
   curved: 6px;
@@ -8,13 +9,12 @@ const br = styledMap`
   round: 100%;
   default: ;
 `;
+const img = View.withComponent('img');
 
-const Image = styled.img`
-${space}
-  ${width}
-  ${height}
-  ${borderRadius};
-  display: block;
+const Image = styled(img)`
+  
+
+  
   max-width: 100%;
   height: auto;
   border-radius: ${props => props.borderRadius == null ? br : ''};
