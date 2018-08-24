@@ -43,6 +43,54 @@ class Example extends Component {
 }
 ```
 
+# Documentation
+
+>
+
+## Text
+
+### Font Size
+
+Parameter (case sensitive) | Value
+------------ | -------------
+default | 13px
+tiny | 11px
+xs | 13px
+s | 15px
+m | 17px
+l | 20px
+xl | 23px
+xxl | 27px
+xxxl | 34px
+huge | 45px
+
+
+### Font Weight
+
+Parameter (case sensitive) | Value
+------------ | -------------
+default | regular
+bold | bold
+medium | medium
+light | light
+
+
+### Font Align
+
+Parameter (case sensitive) | Value
+------------ | -------------
+default | left
+left | left
+right | right
+center | center
+
+
+
+
+
+
+
+
 ## License
 
 MIT © [tushar7d](https://github.com/tushar7d)
