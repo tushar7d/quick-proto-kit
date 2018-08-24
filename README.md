@@ -52,22 +52,35 @@ class Example extends Component {
 
 
 
-### Basic
+### Dimensions
 
 Property  | syntax
 ------------ | -------------
 Height | ```  <View height={'value'} /> ```
 Width | ```  <View width={'value'} /> ```
-Background color | ```  <View bg={'value or theme'} /> ```
-Text color | ```  <View width={'value or theme'} /> ```
-Corner Curve | ``` <View borderRadius={'value or theme'} /> ```
-Shadow | ``` <View boxShadow={'value or theme'} /> ``` 
+
+
+### Colors
+
+Property  | syntax | detail
+------------ | ------------- | -------------
+Background color | ```  <View bg={'value'} /> ``` | Value: '#ffffff' or 'themeColor' 
+Text color | ```  <View color={'value'} /> ``` | Value: '#ffffff' or 'themeColor' 
+
+### Shadow
+
+Property  | syntax | detail
+------------ | ------------- | -------------
+Shadow | ```  <View boxShadow={'value'} /> ``` | Value: 'themeShadow' 
+
+
 
 
 ### Border Radius
 
-command  |  purpose    |syntax 
+Property  |  purpose    |syntax 
 ------------ | ------------- | -------------
+specific | Add a border radius of '10px' | ```  <View borderRadius={'10px'}  /> ```
 curved | Add a border radius of 6px | ```  <View curved  /> ```
 more-curved | Add a border radius of 12px | ```  <View more-curved  /> ```
 round | Add a border radius of 100%, this will make a circle if the view is squre | ```  <View curved  /> ```
