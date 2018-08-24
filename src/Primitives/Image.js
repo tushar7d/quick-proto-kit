@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-
 import styledMap from 'styled-map';
 import View from './View';
 
