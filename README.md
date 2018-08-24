@@ -50,10 +50,8 @@ class Example extends Component {
 
 ## Stack
 
-
-
-
 ### Layout
+
 Property  | Meaning | Syntac
 ------------ | ------------- | -------------
 horizontal | Align all child elements horizontally | ```  <Stack horizontal /> ```
@@ -67,6 +65,7 @@ right | Right Align all child elements  | ```  <Stack right /> ```
 
 
 ### Alignment
+
 Property  | Meaning | Syntac
 ------------ | ------------- | -------------
 center | center all child element horizontaly | ```  <Stack center /> ```
