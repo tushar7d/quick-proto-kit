@@ -8,14 +8,13 @@ const fd = styledMap`
   vertical: column;
   default: row;
 `;
+
 const ai = styledMap`
   top: flex-start;
   bottom: flex-end;
   mid: center;
   stretch: stretch;
   default: flex-start;
-
-
 `;
 
 const aii = styledMap`
@@ -24,8 +23,6 @@ const aii = styledMap`
   center: center;
   stretch: stretch;
   default: flex-start;
-
-
 `;
 
 
@@ -37,8 +34,6 @@ const jc = styledMap`
   around: space-around;
   equally: equally;
   default: flex-start;
-
-
 `;
 const jci = styledMap`
   top: flex-start;
@@ -48,8 +43,6 @@ const jci = styledMap`
   around: space-around;
   equally: equally;
   default: flex-start;
-
-
 `;
 
 
