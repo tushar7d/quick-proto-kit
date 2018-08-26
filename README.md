@@ -14,14 +14,15 @@ https://quick-proto-kit.gitbook.io/go
 
 ## Install
 
-Quick proto Kit is based on styled-compoenents, styled-system and styled-map. To use it you must install all of these.
+Quick proto Kit is based on styled-compoenents. To use it you must install all of these.
 
 ```bash
 
-npm install --save styled-components styled-map styled-system
+npm install --save styled-components
 
 npm install --save quick-proto-kit
 ```
+
 ## Usage
 
 ```jsx
@@ -46,6 +47,72 @@ class Example extends Component {
 # Documentation
 
 >
+
+## Stack
+
+### Layout
+
+Property  | Meaning | Syntac
+------------ | ------------- | -------------
+horizontal | Align all child elements horizontally | ```  <Stack horizontal /> ```
+vertical | Align all child elements vertically | ```  <Stack vertical /> ```
+center | center all child element horizontaly | ```  <Stack center /> ```
+mid | center all child element vertically | ```  <Stack mid /> ```
+top | Top Align all child elements  | ```  <Stack top /> ```
+bottom | Bottom Align all child elements  | ```  <Stack bottom /> ```
+left | Left Align all child elements  | ```  <Stack left /> ```
+right | Right Align all child elements  | ```  <Stack right /> ```
+
+
+### Alignment
+
+Property  | Meaning | Syntac
+------------ | ------------- | -------------
+center | center all child element horizontaly | ```  <Stack center /> ```
+mid | center all child element vertically | ```  <Stack mid /> ```
+top | Top Align all child elements  | ```  <Stack top /> ```
+bottom | Bottom Align all child elements  | ```  <Stack bottom /> ```
+left | Left Align all child elements  | ```  <Stack left /> ```
+right | Right Align all child elements  | ```  <Stack right /> ```
+
+
+
+
+## View
+
+### Dimensions
+
+Property  | syntax
+------------ | -------------
+Height | ```  <View height={'value'} /> ```
+Width | ```  <View width={'value'} /> ```
+
+
+### Colors
+
+Property  | syntax | detail
+------------ | ------------- | -------------
+Background color | ```  <View bg={'value'} /> ``` | Value: '#ffffff' or 'themeColor' 
+Text color | ```  <View color={'value'} /> ``` | Value: '#ffffff' or 'themeColor' 
+
+### Shadow
+
+Property  | syntax | detail
+------------ | ------------- | -------------
+Shadow | ```  <View boxShadow={'value'} /> ``` | Value: 'themeShadow' 
+
+
+
+
+### Border Radius
+
+Property  |  purpose    |syntax 
+------------ | ------------- | -------------
+specific | Add a border radius of '10px' | ```  <View borderRadius={'10px'}  /> ```
+curved | Add a border radius of 6px | ```  <View curved  /> ```
+more-curved | Add a border radius of 12px | ```  <View more-curved  /> ```
+round | Add a border radius of 100%, this will make a circle if the view is squre | ```  <View curved  /> ```
+default | No border | -
 
 ## Text
 
