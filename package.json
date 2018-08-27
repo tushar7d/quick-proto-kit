@@ -1,6 +1,6 @@
 {
   "name": "quick-proto-kit",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Simple prototyping",
   "author": "tushar7d",
   "license": "MIT",
@@ -59,6 +59,8 @@
     "dist"
   ],
   "dependencies": {
+    "react-animations": "^1.0.0",
+    "react-pose": "^3.0.2",
     "styled-map": "^3.0.0",
     "styled-system": "^3.0.2"
   }

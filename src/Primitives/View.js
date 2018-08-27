@@ -1,11 +1,12 @@
 import styled from 'styled-components';
-import { space, width, color, height, minHeight, borderRadius, boxShadow } from 'styled-system';
+import { space, width, color, height, minHeight, borderRadius, boxShadow, size } from 'styled-system';
 import styledMap from 'styled-map';
 
+
+
 const br = styledMap`
-  curved: 6px;
-  more-curved: 12px;
-  round: 100%;
+  rounded: 6px;
+  circle: 100%;
   default: ;
 `;
 
@@ -25,6 +26,8 @@ default: block;
 
 
 
+
+
 const View = styled.div`
   ${space}
   ${width}
@@ -33,11 +36,19 @@ const View = styled.div`
   ${minHeight}
   ${borderRadius};
   ${boxShadow};
+  ${size};
 
   display: ${disp};
   flex: ${props=> props.child ? fg : null};
   border-radius: ${props => props.borderRadius == null ? br : ''};
+  align-self: ${props => props.alignSelf};
+  justify-self: ${props => props.justifySelf}
+  
+  
+  
 `;
+
+
 
 View.displayName = 'View';
 

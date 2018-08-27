@@ -5,6 +5,8 @@ import Stack from '../Primitives/Stack';
 const Card = styled(Stack)`
 
 background-color: ${theme.colors.white};
+box-shadow:${theme.shadows[0]};
+padding:${theme.space[3]};
 
 `;
 

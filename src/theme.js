@@ -14,8 +14,8 @@
 
     ],
     colors: {
-        'brandYellow': '#ffcb00',
-        'brandblue': '#00355f',
+        'yellow': '#ffcb00',
+        'blue': '#00355f',
 
         'link': '#0065b8',
         'linkHover': '#0087f5',
@@ -33,8 +33,9 @@
         'grey100': '#f5f5f5',
         white: '#ffffff',
 
-        'urgency': '#d60000',
-        'infoSecondary': '#536d83',
+        'urgency-red': '#d60000',
+
+        'info-blue': '#536d83',
 
         'errorBackground': '#fad4d4',
         'error': '#b80000',
