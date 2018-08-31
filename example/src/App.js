@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { ThemeProvider } from 'styled-components';
-import { View, Text, Card, theme, Image, Stack } from 'kit';
+
+import { View, Text, Image, Stack, ThemeWraper } from 'kit';
 import carImage from './Assets/CarImage.jpg';
 import suppImage from './Assets/SuppImage.png';
 import passengers from './Assets/Passengers.png';
@@ -8,6 +8,7 @@ import doors from './Assets/Doors.png';
 import bags from './Assets/Bags.png';
 import tick from './Assets/Tick.png';
 import tickGreen from './Assets/TickGreen.png';
+import theme from './theme';
 
 
 //import Card from 'kit/example/src/Components/Card';
@@ -87,14 +88,14 @@ const ConfidenceMessaging = (props) => {
 export default class App extends Component {
   render() {
     return (
-      <ThemeProvider theme={theme}>
+      <ThemeWraper theme={theme}>
         <ViewMobile>
 
 
 
 
 
-          <Card vertical curved mb={3} m={3}>
+          <View vertical curved mb={3} m={3} bg={'white'}>
 
             <Stack horizontal split left p={3}>
 
@@ -118,7 +119,7 @@ export default class App extends Component {
               <Stack horizontal split mid width={'100%'} >
                 <Text width={'30%'} m={3} >$200</Text>
                 
-                  <Stack bounce horizontal bg={'yellow'} color={'grey800'} rounded boxShadow={1} center mid m={3} p={3}>
+                  <Stack bounce horizontal bg={'brandYellow'} color={'grey800'} rounded boxShadow={1} center mid m={3} p={3}>
                     <Text s medium> Reserve Now</Text>
                   </Stack>
                 
@@ -129,12 +130,12 @@ export default class App extends Component {
             </Stack>
 
 
-          </Card>
+          </View>
 
 
 
         </ViewMobile>
-      </ThemeProvider>
+        </ThemeWraper>
     );
   }
 }
