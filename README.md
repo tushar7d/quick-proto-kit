@@ -63,12 +63,12 @@ vertical | Align all child elements vertically | ```  <Stack.Vertical /> ```
 
 Property  | Meaning | Syntac
 ------------ | ------------- | -------------
-center | center all child element horizontaly | ```  <Stack.'Horizontal|Vertical' center /> ```
-mid | center all child element vertically | ```  <Stack.'Horizontal|Vertical' mid /> ```
-top | Top Align all child elements  | ```  <Stack.'Horizontal|Vertical' top /> ```
-bottom | Bottom Align all child elements  | ```  <Stack.'Horizontal|Vertical' bottom /> ```
-left | Left Align all child elements  | ```  <Stack.'Horizontal|Vertical' left /> ```
-right | Right Align all child elements  | ```  <Stack.'Horizontal|Vertical' right /> ```
+center | center all child element horizontaly | ```  <Stack.Horizontal|Vertical center /> ```
+mid | center all child element vertically | ```  <Stack.Horizontal|Vertical mid /> ```
+top | Top Align all child elements  | ```  <Stack.Horizontal|Vertical top /> ```
+bottom | Bottom Align all child elements  | ```  <Stack.Horizontal|Vertical bottom /> ```
+left | Left Align all child elements  | ```  <Stack.Horizontal|Vertical left /> ```
+right | Right Align all child elements  | ```  <Stack.Horizontal|Vertical right /> ```
 
 
 
