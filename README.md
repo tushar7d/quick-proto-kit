@@ -54,26 +54,21 @@ class Example extends Component {
 
 Property  | Meaning | Syntac
 ------------ | ------------- | -------------
-horizontal | Align all child elements horizontally | ```  <Stack horizontal /> ```
-vertical | Align all child elements vertically | ```  <Stack vertical /> ```
-center | center all child element horizontaly | ```  <Stack center /> ```
-mid | center all child element vertically | ```  <Stack mid /> ```
-top | Top Align all child elements  | ```  <Stack top /> ```
-bottom | Bottom Align all child elements  | ```  <Stack bottom /> ```
-left | Left Align all child elements  | ```  <Stack left /> ```
-right | Right Align all child elements  | ```  <Stack right /> ```
+horizontal | Align all child elements horizontally | ```  <Stack.Horizontal /> ```
+vertical | Align all child elements vertically | ```  <Stack.Vertical /> ```
+
 
 
 ### Alignment
 
 Property  | Meaning | Syntac
 ------------ | ------------- | -------------
-center | center all child element horizontaly | ```  <Stack center /> ```
-mid | center all child element vertically | ```  <Stack mid /> ```
-top | Top Align all child elements  | ```  <Stack top /> ```
-bottom | Bottom Align all child elements  | ```  <Stack bottom /> ```
-left | Left Align all child elements  | ```  <Stack left /> ```
-right | Right Align all child elements  | ```  <Stack right /> ```
+center | center all child element horizontaly | ```  <Stack.'Horizontal|Vertical' center /> ```
+mid | center all child element vertically | ```  <Stack.'Horizontal|Vertical' mid /> ```
+top | Top Align all child elements  | ```  <Stack.'Horizontal|Vertical' top /> ```
+bottom | Bottom Align all child elements  | ```  <Stack.'Horizontal|Vertical' bottom /> ```
+left | Left Align all child elements  | ```  <Stack.'Horizontal|Vertical' left /> ```
+right | Right Align all child elements  | ```  <Stack.'Horizontal|Vertical' right /> ```
 
 
 
