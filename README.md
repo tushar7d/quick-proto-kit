@@ -33,11 +33,11 @@ import {View, Text, Image, Stack} from 'quick-proto-kit'
 class Example extends Component {
   render () {
     return (
-      <Stack horizontal mid bg={'#ffffff'} height={'200px'} >
+      <Stack.Horizontal mid bg={'#ffffff'} height={'200px'} >
           <View width={'100px'} height={'100px'} bg={'#f5f5f5'} />
           <View width={'100px'} height={'100px'} bg={'#efeff4'} />
 
-      </Stack>
+      </Stack.Horizontal>
 
     )
   }
