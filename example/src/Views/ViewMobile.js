@@ -1,21 +1,21 @@
 import React, { Component } from 'react';
 import { Stack } from 'kit';
-import theme from '../theme';
+
 
 export default class ViewMobile extends Component {
-    render() {
-      return (
-        <Stack vertical stretch bg={theme.colors.grey100} width={'375px'} height={'100vh'} m={'auto'}  p={3} >
-            
-            {this.props.children}
-  
-           
-  
-  
-  
-         
-      </Stack>
-      )
-    }
-  }
-  
+	render() {
+		return (
+			<Stack
+				vertical
+				stretch
+				bg={'grey100'}
+				width={['100%', '100%', '861px']}
+				maxWidth={['375px', '100%', '100%']}
+				height={'100vh'}
+				m={'auto'}
+				p={-3}>
+				{this.props.children}
+			</Stack>
+		);
+	}
+}
