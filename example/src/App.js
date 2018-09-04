@@ -8,6 +8,8 @@ import Card from './Components/Card';
 import CarImage from './Assets/CarImage.jpg';
 import SuppImage from './Assets/SuppImage.png';
 import Passengers from './Assets/Passengers.png';
+import Bags from './Assets/Bags.png';
+import Doors from './Assets/Doors.png';
 
 export default class App extends Component {
 	render() {
@@ -25,20 +27,20 @@ export default class App extends Component {
 
 							<View child expandable height={['320px', '180px']} mr={2} my={2}>
 								<Stack vertical top left>
-									<Text textStyle={'b17'}>Economy</Text>
-									<Text textStyle={'r13'} color={'grey500'} mb={0}>
+									<Text fontWeight={'bold'}  fontSize={4}>Economy</Text>
+									<Text fontWeight={'normal'}  fontSize={3} color={'grey500'} mb={0}>
 										Ford Tarus or similar
 									</Text>
 
 									<Stack horizontal left mid >
 										<Image width={'16px'} src={Passengers} ml={'1px'} />
-										<Text textStyle={'r13'} ml={0} pt={'2px'}>7</Text>
+										<Text fontWeight={'normal'}  fontSize={3} ml={0} pt={'2px'}>5</Text>
 
-										<Image width={'16px'} src={Passengers} ml={'1px'} />
-										<Text textStyle={'r13'} ml={0} pt={'2px'}>7</Text>
+										<Image width={'16px'} src={Doors} ml={'1px'} />
+										<Text fontWeight={'normal'} fontSize={3} ml={0} pt={'2px'}>4</Text>
 
-										<Image width={'16px'} src={Passengers} ml={'1px'} />
-										<Text textStyle={'r13'} ml={0} pt={'2px'}>7</Text>
+										<Image width={'16px'} src={Bags} ml={'1px'} />
+										<Text  fontWeight={'normal'} fontSize={3}ml={0} pt={'2px'}>2</Text>
 									</Stack>
 								</Stack>
 							</View>
@@ -49,3 +51,5 @@ export default class App extends Component {
 		);
 	}
 }
+
+

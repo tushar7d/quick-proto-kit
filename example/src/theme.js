@@ -6,6 +6,7 @@ const theme = {
 	breakpoints:['492px','726px','1176px'],
 	space: [3, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72],
 	fontSizes: [11, 12, 13, 15, 17, 20, 23, 27, 34, 45],
+	lineHeight: [13, 15, 18, 21, 24, 20, 23, 27, 34, 45],
 	fontWeights: [300, 'normal', 500, 'bold'],
 	shadows: [
 		'0px 0px 2px 0px rgba(0,0,0,0.1)',
